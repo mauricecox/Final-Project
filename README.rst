@@ -45,3 +45,11 @@ use of code, and creates a relational database.
 
 Conclusion:
 ===========
+
+
+Figuring which food fits our macro beakdown
+
+25% Protien, 35% Fat, 50% Carbs
+-------------------------------
+
+The resulting food are healthy and can be eaten on the go. Depending on your health, you might want to check the sodium levels.
