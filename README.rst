@@ -40,71 +40,8 @@ table in the DataFrame:
 With a few calcualtions, we've managed to attain some more information from the pre-existing tables, which will
 aid in analysis.
 
+We've also proceded to create a sql database using pythons sqlite3, using sql.write_frame, it provides a light
+use of code, and creates a relational database.
 
-Conclusions
-=============
-
-Not Many Fast Foods are healthy
-
-
-
-
-
-General Code in Notebook: 
--------------------------
-
-(Used to Parse and Create DataFrames in automated Format)
-
-
-Tables Code:
-^^^^^^^^^^^^
-
-[ Tables ]
-``````````
-
-.. code-block:: python
-
-Table_Names = ['Fries',
-               'Hamburgers',
-               'Sandwiches_Hamburger',
-               'Chicken_Pieces',
-               'Chicken_Sandwiches',
-               'Onion_Rings',
-               'Bkfst_Sandwiches',
-               'Mozzarella_Sticks',
-               'BreadSticks_CheesyBread',
-               'Pizza_Large14'
-              ]
-
-    def parse_table(table):
-    results = []
-    counter = 0
-    table_row = []
-    for row in table:
-        try:
-            table_row.append(float(row))
-        except Exception as e:
-            table_row.append(row)
-        counter += 1
-        if counter % 9 == 0:
-            results.append(table_row)
-            table_row = []
-    return results
-    
-    
-
-[ DataFrame ]
-`````````````
-.. code-block:: python
-
-def easy_dataframe(table_list, table_catg):
-    df_object = pd.DataFrame(table_list, columns = table_catg)
-    return df_object.replace('Unknown', 0)
-
-counter = 0
-for item in Table_Names:
-    exec('{} = easy_dataframe({},{})'.format(item.strip(),
-                                             parse_table(TABLES_DATA[counter]),
-                                             TABLE_CATEGORIES))
-    counter += 1
-    
+Conclusion:
+===========
