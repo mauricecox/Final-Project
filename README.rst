@@ -6,6 +6,13 @@ Maurice Cox - Modesto Cabrera
 =============================
 
 
+.. image:: https://github.com/mauricecox/Final-Project/blob/master/static/fastfoods_logos.png?raw=true
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: center
+   
 How nutritious are our Fast Food Restaurants?
 ---------------------------------------------
 
