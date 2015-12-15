@@ -16,9 +16,14 @@ Maurice Cox - Modesto Cabrera
 How nutritious are our Fast Food Restaurants?
 ---------------------------------------------
 
+Super Size Me produced in 2004 gave us a bad impression about eating fast food. It made it seem as though if you eat fast food you would become fat. This is horribly wrong. What happened in that documentary, and is not stated, is that the host Morgan Spurlock would eat way more calories than what is required for his daily caloric need. The host who needed 2500 calories worth of food, would eat more than 5000 calories per day. 3500 calories = 1lb of fat, so eating 1500 calories extra per day is 10500 calories which work out to be 3lbs of fat gain per week!
+
+On the other hand, a science teacher, John Cisna, a science teacher from Colo, Iowa lost 60lbs eating fast food, McDonalds in particular. He understood caloric need and ate less calories than his daily caloric requirement, which allowed him to lose weight.
+
 The goal of this project is to present you with the healthier choices between famous (well known) fast food restaurant meals. We will explore the common meals in proportions that are made available by these particular restaurants. In our exploration and analysis, we predict that we will not find many favorable conditions in our analysis. This is partly due to varying health conditions in individuals, all the conclusions in the process should be taken with a grain of salt in this regard. Fast food is not a healthy choice. But what we will hope to have determined by the end of the analysis is the difference between the foods that can cause more 
-detrimental effects on an individual’s health, than others, which may be less harmful and therefore safer 
-to consume.
+
+What we are doing here is pretty much going to educate you on what healthy fast food choices are. We will also analyze health food and give a recommended macro nutritional ratio of Protein, Fat and Carbs of 25/35/50 that will promote a healthy life style.
+
 
 
 Process 1:
@@ -44,8 +49,9 @@ While parsing through the tables a few issues came to light, such as the Onion R
 After this issue was handled, we've also created an automated format to do the following extra columns for each
 table in the DataFrame:
 
-With a few calcualtions, we've managed to attain some more information from the pre-existing tables, which will
-aid in analysis.
+We also noticed while performing the tidying of data that the protein information was missing, With a few calculations, we've managed to attain some more information from the pre-existing tables, which aided in our analysis.
+
+We then find the ratio of the fat, protein and carb of each meal. With this information we were able to analyze and select the rows in which matched our caloric recommendation.
 
 We've also proceded to create a sql database using pythons sqlite3, using sql.write_frame, it provides a light
 use of code, and creates a relational database.
